@@ -2,6 +2,10 @@ import React, { FC, useMemo } from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import { PhantomWalletAdapter } from '@solana/wallet-adapter-phantom';
+import { GlowWalletAdapter } from '@solana/wallet-adapter-glow';
+import { CoinbaseWalletAdapter } from '@solana/wallet-adapter-coinbase';
+import { BraveWalletAdapter } from '@solana/wallet-adapter-brave';
+
 import {
     WalletModalProvider,
     WalletDisconnectButton,
@@ -23,6 +27,11 @@ export const Wallet: FC = () => {
         () => [
             
             new PhantomWalletAdapter(),
+            new GlowWalletAdapter(),
+            new CoinbaseWalletAdapter(),
+            new BraveWalletAdapter(),
+
+
         ],
         // eslint-disable-next-line react-hooks/exhaustive-deps
         [network]
