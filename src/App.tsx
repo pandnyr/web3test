@@ -10,7 +10,8 @@ function App() {
       <header className="App-header">
         <h1>Web3Test</h1>
         <hr className="fullWidth" />
-        <Connect2Phantom></Connect2Phantom>
+        {/* <Connect2Phantom></Connect2Phantom> */}
+        <Wallet></Wallet>
 
       </header>
     </div>
