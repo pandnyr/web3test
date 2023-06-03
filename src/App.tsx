@@ -17,13 +17,13 @@ function App() {
         <div className='tokenlist'>
           <tr>
           <td><div className='flexiblecontentstart'>#</div></td>
-          <td><div className='flexiblecontentop'>Ad</div></td>
-          <td><div className='flexiblecontentop'>Fiyat</div></td>
+          <td><div className='flexiblecontentop'>Name</div></td>
+          <td><div className='flexiblecontentop'>Price</div></td>
           <td><div className='flexiblecontentop'>24H%</div></td>
           <td><div className='flexiblecontentop'>7D%</div></td>
-          <td><div className='flexiblecontentop'>Piyasa Değeri</div></td>
-          <td><div className='flexiblecontentop'>Hacim</div></td>
-          <td><div className='flexiblecontentop'>Dolaşan Arz</div></td>
+          <td><div className='flexiblecontentop'>Market Value</div></td>
+          <td><div className='flexiblecontentop'>Volume</div></td>
+          <td><div className='flexiblecontentop'>Circulating Supply</div></td>
           </tr>
         </div>
         <div className='tokenlist'>
@@ -39,6 +39,198 @@ function App() {
           </tr>
           </div>
         <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
+        <tr>
+          <td><div className='flexiblecontentstart'>2</div></td>
+          <td><div className='flexiblecontent'>ETH</div></td>
+          <td><div className='flexiblecontent'>25000</div></td>
+          <td><div className='flexiblecontent'>⬆️0.67%</div></td>
+          <td><div className='flexiblecontent'>⬆️1.24%</div></td>
+          <td><div className='flexiblecontent'>9,087,581,897,702 TL</div></td>
+          <td><div className='flexiblecontent'>132,315,244,567</div></td>
+          <td><div className='flexiblecontent'>21,994,566 ETH</div></td>
+          </tr>
+          </div>
+          <div className='tokenlist'>
         <tr>
           <td><div className='flexiblecontentstart'>2</div></td>
           <td><div className='flexiblecontent'>ETH</div></td>
