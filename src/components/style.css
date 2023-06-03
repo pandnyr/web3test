@@ -4,10 +4,9 @@
 
 body {
     margin : 0;
+    background-color: #282c34;
 }
-header {
-    margin: 0;
-}
+
 
 .nav {
     
@@ -22,4 +21,42 @@ header {
 
 .nav a {
     color: inherit;
+}
+
+.tokenlist {
+    
+    justify-content: space-between;
+    align-items: center;
+    background: #8758ff;
+    color: #fff;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.flexiblecontent {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 7rem;
+    margin-top: 10px;
+}
+.flexiblecontentstart {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.flexiblecontentop {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 8.5rem;
+    margin-top: auto;
+    flex-direction: row;
+    font-style: 23px;
+    font-size:large;
 }
