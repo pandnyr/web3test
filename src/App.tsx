@@ -8,11 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <nav className="nav">
         <h1>Web3Test</h1>
-        <hr className="fullWidth" />
-        {/* <Connect2Phantom></Connect2Phantom> */}
-        <Wallet></Wallet>
-
+        <a><Wallet></Wallet></a>
+        </nav>
       </header>
     </div>
   );
