@@ -60,3 +60,12 @@ body {
     font-style: 23px;
     font-size:large;
 }
+
+.wallettracker {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: small;
+    padding-left: 15px;
+    margin-bottom: 1rem;
+}

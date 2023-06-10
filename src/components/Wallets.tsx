@@ -13,6 +13,7 @@ import {
 } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
 
+
 // Default styles that can be overridden by your app
 require('../components/wallet.css');
 
@@ -20,10 +21,10 @@ function WalletTracker() {
     const { publicKey } = useWallet();
   
     if (!publicKey) {
-      return <div>Wallet Not Found</div>;
+      return <div className='wallettracker'>Wallet Not Found</div>;
     }
-    console.log('Kullanıcı Cüzdan Adresi:', publicKey.toBase58());
-    return <div> User Wallet Address: {publicKey.toBase58()}</div>;
+    console.log('User Wallet Address :', publicKey.toBase58());
+    return <div className='wallettracker'> User Wallet Address: {publicKey.toBase58()}</div>;
   }
 
 export const Wallet: FC = () => {
