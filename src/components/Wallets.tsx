@@ -1,5 +1,5 @@
 import React, { FC, useMemo } from 'react';
-import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
+import { ConnectionProvider, WalletProvider, useWallet } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import { PhantomWalletAdapter } from '@solana/wallet-adapter-phantom';
 import { GlowWalletAdapter } from '@solana/wallet-adapter-glow';
@@ -15,6 +15,16 @@ import { clusterApiUrl } from '@solana/web3.js';
 
 // Default styles that can be overridden by your app
 require('../components/wallet.css');
+
+function WalletTracker() {
+    const { publicKey } = useWallet();
+  
+    if (!publicKey) {
+      return <div>Wallet Not Found</div>;
+    }
+    console.log('Kullanıcı Cüzdan Adresi:', publicKey.toBase58());
+    return <div> User Wallet Address: {publicKey.toBase58()}</div>;
+  }
 
 export const Wallet: FC = () => {
     // The network can be set to 'devnet', 'testnet', or 'mainnet-beta'.
@@ -43,6 +53,7 @@ export const Wallet: FC = () => {
                 <WalletModalProvider>
                     <WalletMultiButton />
                     <WalletDisconnectButton />
+                    <WalletTracker></WalletTracker>
                     { /* Your app's components go here, nested within the context providers. */ }
                 </WalletModalProvider>
             </WalletProvider>
