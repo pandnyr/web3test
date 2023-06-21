@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@solana/spl-token": "^0.3.8",
     "@solana/wallet-adapter-base": "^0.9.22",
     "@solana/wallet-adapter-material-ui": "^0.16.30",
     "@solana/wallet-adapter-react": "^0.15.32",

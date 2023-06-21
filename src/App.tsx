@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Connect2Phantom from './components/Connect2Phantom';
 import { Wallet } from './components/Wallets';
+import BuyPremiumPage from './components/buypremium';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <nav className="nav">
         <h1>Web3Test</h1>
         <a><Wallet></Wallet></a>
+        <BuyPremiumPage></BuyPremiumPage>
         </nav>
       </header>
       <body>
